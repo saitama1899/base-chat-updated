@@ -1,0 +1,77 @@
+.container{
+  overflow:hidden;
+  background:linear-gradient(181deg, rgba(100,200,255,0.6), rgba(0, 0, 0, 0.9)),
+  url('../../assets/img/bg.jpg') center center no-repeat;;
+}
+
+.signUpCard{
+  display: block;
+  border-radius: 4px;
+  background-color:rgba(255, 255, 255, 0.91);
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.17), 0 1px 2px rgba(0,0,0,0.24);
+  overflow: hidden;
+}
+
+.formInput{
+  display: block;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  background: #ffffffab;
+  border: #00000017 1px solid;
+  padding: 8px;
+  font-size: 1em;
+  margin-bottom: 18px;
+}
+
+.btn{
+  height: 54px;
+  margin-top: 32px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.17), 0 1px 2px rgba(0,0,0,0.24);
+  transition: ease-in 0.2s;
+  width: 100%;
+}
+
+#btn-signUp{
+  background-color:#4980b9;
+}
+
+#btn-signUp{
+  background-color:#38608a;
+  transition: ease-in 0.2s;
+  cursor: pointer;
+}
+
+#btn-signUp:disabled{
+  background-color:#ffffff82;
+  color: #999;
+}
+
+#btn-signUp:disabled:hover{
+  cursor: auto;
+}
+
+h2{
+  text-align: center;
+  height: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.label{
+  font-size: 0.9em;
+}
