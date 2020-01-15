@@ -1,2 +1,2 @@
 # base-chat-updated
-Tutorial by Wes Doyle on https://www.youtube.com/watch?v=-j0LVc-zLh0&amp;t=30s updated
+> Life chat app with Angular and google firebase
